@@ -1,0 +1,6 @@
+<% @images.each do |img| %>
+	    	<%= img.avatar %>
+	    	<%= img.name %>
+	    	<%= link_to "Edit", edit_task_path(task.id) %><%= link_to "Delete"%>
+	    	<hr>
+<% end %>
